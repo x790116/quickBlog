@@ -2,7 +2,7 @@
 date = "2018-10-23"
 title = "呂毅 CSM Day1"
 description = ""
-weight = 15
+weight = 10
 tags = [
     "CSM",
     "Scrum",
