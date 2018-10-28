@@ -13,6 +13,7 @@ categories = [
     "Agile",
     "Scrum",
 ]
+archives = "2018"
 +++
 ## 2018-10-26(五) 呂毅 CSPO Day2
 
@@ -270,8 +271,8 @@ CSPO 最後一天的課程, 一開始就先放了下面這近 16min 的影片
     * 單元測試
     * 驗收測試
     * 代碼審查 (Code Review)
-    * 這邊剪下那邊貼上
-    * 硬幹 Hardcode 寫在裡面
+    * ~~禁止~~ 這邊剪下那邊貼上
+    * ~~禁止~~ 硬幹 Hardcode 寫在裡面
     * ...
 
 有時候會因為 Scope, Time, Cost 的限制

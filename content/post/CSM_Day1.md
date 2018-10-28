@@ -13,6 +13,7 @@ categories = [
     "Agile",
     "Scrum",
 ]
+archives = "2018"
 +++
 # 2018-10-23(二) 呂毅 CSM Day1
 
