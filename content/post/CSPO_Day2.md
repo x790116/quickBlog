@@ -282,6 +282,9 @@ CSPO 最後一天的課程, 一開始就先放了下面這近 16min 的影片
 
 當 **債留子孫** 的時候..... 你覺得還快的起來嗎？
 
+![](https://i.imgur.com/VuFpYgk.jpg)
+![](https://i.imgur.com/Gx5yU8A.jpg)
+
 ---
 ## Scrum PO 看見全貌
 
@@ -315,6 +318,8 @@ CSPO 最後一天的課程, 一開始就先放了下面這近 16min 的影片
 
 > #### 專案結束後, 帶著更強大的 Scrum Team, 迎接下一個挑戰～
 
+![](https://i.imgur.com/1UIcp4k.jpg)
+
 ---
 
 ##### 連上 4 天課真的是累到一個不行
@@ -326,3 +331,5 @@ CSPO 最後一天的課程, 一開始就先放了下面這近 16min 的影片
 ##### 再來持續的更新這個部落格吧～ 
 
 # 收工！
+
+![](https://i.imgur.com/zZzK26y.jpg)
