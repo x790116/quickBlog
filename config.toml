@@ -3,7 +3,7 @@ title = "This is DZ's Blog"
 author = "David Zhang"
 theme = "blackburn"
 # Shown in the side menu
-copyright = "&copy; 2018. All rights reserved."
+copyright = "&copy; Jingangz 2018-2019 All rights reserved."
 languageCode = "en-us"
 canonifyurls = true
 paginate = 10
@@ -14,7 +14,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "My Name is DavidZhang a.k.a. Jingangz (金剛)"
+  subtitle = "My Name is DavidZhang aka Jingangz (張金剛)"
   brand = "Jingangz"
   #googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "David Zhang"
