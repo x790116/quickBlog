@@ -17,7 +17,7 @@ categories = [
 # 2018-10-24(三) 呂毅 CSM Day2
 
 # Inspect & Adapt
-昨天交付了 [第一個 ~~*流水帳*~~ 版本的 Day1 心得](https://github.com/x790116/blog/blob/master/CSM_Day1.md)
+昨天交付了 [第一個 ~~*流水帳*~~ 版本的 Day1 心得](https://x790116.github.io/2018/csm_day2/)
 
 仔細回想一下昨天的寫作方式, 就是一直看著自己的上課筆記
 
