@@ -1,16 +1,25 @@
 baseurl = "https://x790116.github.io" # Make sure to end baseurl with a '/'
 title = "This is DZ's Blog"
-author = "David Zhang"
-theme = "blackburn"
+author = "@DavidZhang"
+#theme = "blackburn"
+theme = "jeffprod"
+#theme = "hugo-blog-jeffprod"
 # Shown in the side menu
-copyright = "&copy; Jingangz 2018-2019 All rights reserved."
+copyright = "Copyright © 2018–2019, @Jingangz"
 languageCode = "en-us"
 canonifyurls = true
-paginate = 10
+paginate = 5
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
 
 [indexes]
-  tag = "tags"
   topic = "topics"
+  tag = "tags"
 
 [params]
   # Shown in the home page

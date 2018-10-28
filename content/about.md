@@ -1,31 +1,18 @@
 +++
-title = "About"
+title = "About Hugo"
 date = "2014-04-09"
-sidemenu = "true"
-description = "About me and this site"
+menu = "main"
 +++
 
-Hugo is a static site engine written in Go.
-
+Hugo is the **world’s fastest framework for building websites**. It is written in Go.
 
 It makes use of a variety of open source projects including:
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+* https://github.com/russross/blackfriday
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!

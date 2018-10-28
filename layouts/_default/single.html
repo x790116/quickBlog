@@ -1,11 +1,18 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Description }}</h2>
-</div>
-<div class="content">
-  {{ .Content }}
+<div class="columns">
+    <div class="column is-9">
+        <div class="tile is-child box">
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+    <div class="column is-3">
+        {{ partial "widget-tags.html" . }}<br>
+        {{ partial "widget-recent.html" . }}<br>
+        {{ partial "widget-archives.html" . }}
+    </div>
 </div>
 
-{{ partial "footer.html" . }}
+{{ end }}
