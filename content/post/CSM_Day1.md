@@ -7,7 +7,7 @@ tags = [
     "CSM",
     "Scrum",
     "Agile",
-    "Odd-e",    
+    "Odde",    
 ]
 categories = [
     "Agile",

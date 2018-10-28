@@ -7,7 +7,7 @@ tags = [
     "CSPO",
     "Scrum",
     "Agile",
-    "Odd-e",
+    "Odde",
     "Community",
 ]
 categories = [
