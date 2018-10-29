@@ -10,11 +10,6 @@ tags = [
     "Odde",
     "Community",
 ]
-categories = [
-    "Agile",
-    "Scrum",
-    "Community",
-]
 archives = "2018"
 +++
 # 2018-10-25(四) 呂毅 CSPO Day1

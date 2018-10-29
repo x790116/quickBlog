@@ -9,10 +9,6 @@ tags = [
     "Agile",
     "Odde",
 ]
-categories = [
-    "Agile",
-    "Scrum",
-]
 archives = "2018"
 +++
 ## 2018-10-26(五) 呂毅 CSPO Day2

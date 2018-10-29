@@ -5,7 +5,6 @@ theme = "jeffprod"
 # Shown in the side menu
 copyright = "Copyright © 2018–2019, @Jingangz"
 languageCode = "en-us"
-canonifyurls = true
 paginate = 5
 
 [permalinks]
@@ -13,5 +12,4 @@ paginate = 5
 
 [indexes]
   tag = "tags"
-  category = "categories"
   archive = "archives"

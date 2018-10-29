@@ -9,10 +9,6 @@ tags = [
     "Agile",
     "Odde",    
 ]
-categories = [
-    "Agile",
-    "Scrum",
-]
 archives = "2018"
 +++
 # 2018-10-24(三) 呂毅 CSM Day2
