@@ -2,13 +2,15 @@
 #!/bin/bash
 
 #### Step1 : update public Folder ####
-echo -e "\033[0;32mDeploying Public updates to GitHub...\033[0m"
+echo -e "\033[0;32mBuild Hugo ...\033[0m"
 
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
+
+echo -e "\033[0;32mDeploying Public updates to GitHub...\033[0m"
 
 # Add changes to git.
 git add -A
