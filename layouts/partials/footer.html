@@ -1,13 +1,49 @@
 <footer class="footer has-background-grey-darker has-text-white">
-    <div class="content has-text-centered">
-        <p>
-            <span class="icon is-large"><a href="https://github.com/x790116" class="mysocial"><i class="fab fa-github fa-3x"></i></a></span>&nbsp;&nbsp;
-            <br><br>
-            Copyright &copy; {{ .Site.Title }} {{ now.Format "2006"}} - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
+  <div class="container">
+    <div class="row">
+      <div class="content has-text-centered">
+        <p class="mysocial">
+          {{ range .Site.Data.beautifulhugo.social.social_icons }}
+            {{- if isset $.Site.Author .id }}              
+                <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="mysocial" class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>              
+            {{- end -}}
+          {{ end }}
+          {{ if .Site.Params.rss }}            
+              {{ if .RSSLink }}
+                <a href="{{ .RSSLink }}" title="RSS">
+              {{ else }}
+                <a href="{{ .Site.RSSLink }}" title="RSS">
+              {{ end }}
+                  <span class="fa-stack fa-lg">
+                      <i class="mysocial" class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>            
+            {{ end }}          
         </p>
-    </div>
-</footer>
+        <p class="credits copyright text-muted">
+          {{ if .Site.Author.name }}
+            {{ if .Site.Author.website }}
+              <a class="mysocial" href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
+            {{ else }}
+              {{ .Site.Author.name }}
+            {{ end }}
+          {{ end }}
 
-<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-</body>
-</html>
+          &nbsp;&bull;&nbsp;
+          {{ .Site.LastChange.Format "2006" }}
+
+          {{ if .Site.Title }}
+            &nbsp;&bull;&nbsp;
+            <a class="mysocial" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+          {{ end }}
+        </p>        
+      </div>
+    </div>
+  </div>
+</footer>

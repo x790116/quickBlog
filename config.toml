@@ -13,3 +13,39 @@ paginate = 5
 [indexes]
   tag = "tags"
   archive = "archives"
+
+[Params]  
+  dateFormat = "2006-01-02"
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  name = "David Zhang"
+  #website = "x790116.github.io"
+  email = "x790116@gmail.com"
+  facebook = "jingangz"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "x790116"
+#  gitlab = "username"
+#  bitbucket = "davidzhang91"
+#  twitter = "x790116"
+  #reddit = "username"
+  linkedin = "davidzhang91"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+ instagram = "x790116"
+ youtube = "user/x790116" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
